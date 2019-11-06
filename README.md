@@ -1,7 +1,3 @@
 # pratice
-a old pratice
-##bootstrap
 
- bootstrap的练习项目。
- 
- 更正了一些bug
+整理技术、规范、项目相关文档

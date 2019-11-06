@@ -1,0 +1,353 @@
+Message-ID: <1578602938.170.1573026220637.JavaMail.daemon@7ce466c20647>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_169_735076879.1573026220636"
+
+------=_Part_169_735076879.1573026220636
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>sourceMap=E5=A6=82=E4=BD=95=E8=BF=98=E5=8E=9F=E6=BA=90=E7=A0=81<=
+/title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>sourceMap=E5=A6=82=E4=BD=95=E8=BF=98=E5=8E=9F=E6=BA=90=E7=A0=81</h1=
+>
+    <div class=3D"Section1">
+        <p>=E4=B8=80=E3=80=81=E4=BB=80=E4=B9=88=E6=98=AFsource map=EF=BC=9F=
+</p>
+<p>Source map=E5=B0=B1=E6=98=AF=E4=B8=80=E4=B8=AA=E4=BF=A1=E6=81=AF=E6=96=
+=87=E4=BB=B6=EF=BC=8C=E9=87=8C=E9=9D=A2=E5=82=A8=E5=AD=98=E7=9D=80=E4=BD=8D=
+=E7=BD=AE=E4=BF=A1=E6=81=AF=E3=80=82=E4=B9=9F=E5=B0=B1=E6=98=AF=E8=AF=B4=EF=
+=BC=8C=E8=BD=AC=E6=8D=A2=E5=90=8E=E7=9A=84=E4=BB=A3=E7=A0=81=E7=9A=84=E6=AF=
+=8F=E4=B8=80=E4=B8=AA=E4=BD=8D=E7=BD=AE=EF=BC=8C=E6=89=80=E5=AF=B9=E5=BA=94=
+=E7=9A=84=E8=BD=AC=E6=8D=A2=E5=89=8D=E7=9A=84=E4=BD=8D=E7=BD=AE=E3=80=82</p=
+>
+<p>=E4=BA=8C=E3=80=81Source map=E5=9F=BA=E6=9C=AC=E6=A0=BC=E5=BC=8F=EF=BC=
+=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+=09"version":3,  // source map=E7=89=88=E6=9C=AC
+=09"sources":["webpack:///webpack/bootstrap","webpack:///./main.js"],  // =
+=E8=BD=AC=E6=8D=A2=E5=89=8D=E7=9A=84=E6=96=87=E4=BB=B6
+=09"names":["installedModules","__webpack_require__","moduleId","exports","=
+module", "aaa"], // =E8=BD=AC=E6=8D=A2=E5=89=8D=E7=9A=84=E6=89=80=E6=9C=89=
+=E5=8F=98=E9=87=8F=E5=90=8D=E5=92=8C=E5=B1=9E=E6=80=A7=E5=90=8D
+=09"mappings":"aACE,IAAIA,EAAmB, // =E8=AE=B0=E5=BD=95=E4=BD=8D=E7=BD=AE=E4=
+=BF=A1=E6=81=AF=E7=9A=84=E5=AD=97=E7=AC=A6=E4=B8=B2
+=09"file":"app.min.js", //=E8=BD=AC=E6=8D=A2=E5=90=8E=E7=9A=84=E6=96=87=E4=
+=BB=B6=E5=90=8D
+=09"sourcesContent":["exports\n \treturn __webpack_require__(__webpack_requ=
+ire__.s =3D 0);\n"," testError () {\n  console.log(aaa)\n}"],
+=09"sourceRoot":""
+}</pre>=20
+</div>
+</div>
+<p>=E4=B8=89=E3=80=81mappings=E5=AF=B9=E5=BA=94=E7=9A=84=E5=8E=9F=E7=90=86 =
+=EF=BC=88<a href=3D"http://www.ruanyifeng.com/blog/2013/01/javascript_sourc=
+e_map.html" class=3D"external-link" rel=3D"nofollow">=E8=AF=A6=E6=83=85</a>=
+=EF=BC=89=EF=BC=88<a href=3D"http://www.imooc.com/article/288046" class=3D"=
+external-link" rel=3D"nofollow">VLQ=E7=BC=96=E7=A0=81</a>=EF=BC=89</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: xml; gutter: false; theme: Confluence" data-theme=3D"Confluence">=E7=AC=
+=AC=E4=B8=80=E4=BD=8D=EF=BC=8C=E8=A1=A8=E7=A4=BA=E8=BF=99=E4=B8=AA=E4=BD=8D=
+=E7=BD=AE=E5=9C=A8=EF=BC=88=E8=BD=AC=E6=8D=A2=E5=90=8E=E7=9A=84=E4=BB=A3=E7=
+=A0=81=E7=9A=84=EF=BC=89=E7=9A=84=E7=AC=AC=E5=87=A0=E5=88=97=E3=80=82
+
+=E7=AC=AC=E4=BA=8C=E4=BD=8D=EF=BC=8C=E8=A1=A8=E7=A4=BA=E8=BF=99=E4=B8=AA=E4=
+=BD=8D=E7=BD=AE=E5=B1=9E=E4=BA=8Esources=E5=B1=9E=E6=80=A7=E4=B8=AD=E7=9A=
+=84=E5=93=AA=E4=B8=80=E4=B8=AA=E6=96=87=E4=BB=B6=E3=80=82
+
+=E7=AC=AC=E4=B8=89=E4=BD=8D=EF=BC=8C=E8=A1=A8=E7=A4=BA=E8=BF=99=E4=B8=AA=E4=
+=BD=8D=E7=BD=AE=E5=B1=9E=E4=BA=8E=E8=BD=AC=E6=8D=A2=E5=89=8D=E4=BB=A3=E7=A0=
+=81=E7=9A=84=E7=AC=AC=E5=87=A0=E8=A1=8C=E3=80=82
+
+=E7=AC=AC=E5=9B=9B=E4=BD=8D=EF=BC=8C=E8=A1=A8=E7=A4=BA=E8=BF=99=E4=B8=AA=E4=
+=BD=8D=E7=BD=AE=E5=B1=9E=E4=BA=8E=E8=BD=AC=E6=8D=A2=E5=89=8D=E4=BB=A3=E7=A0=
+=81=E7=9A=84=E7=AC=AC=E5=87=A0=E5=88=97=E3=80=82
+
+=E7=AC=AC=E4=BA=94=E4=BD=8D=EF=BC=8C=E8=A1=A8=E7=A4=BA=E8=BF=99=E4=B8=AA=E4=
+=BD=8D=E7=BD=AE=E5=B1=9E=E4=BA=8Enames=E5=B1=9E=E6=80=A7=E4=B8=AD=E7=9A=84=
+=E5=93=AA=E4=B8=80=E4=B8=AA=E5=8F=98=E9=87=8F=E3=80=82</pre>=20
+</div>
+</div>
+<p>=E5=9B=9B=E3=80=81=E7=94=9F=E6=88=90 .map=E6=96=87=E4=BB=B6</p>
+<ul>
+<li>webpack =E9=85=8D=E7=BD=AE=E7=94=9F=E6=88=90 .map=E6=96=87=E4=BB=B6=EF=
+=BC=9Adevtool:'#source-map'</li>
+</ul>
+<p>=E4=BA=94=E3=80=81=E5=BC=80=E5=8F=91=E7=9A=84hyapp-sourcemap=E5=91=BD=E4=
+=BB=A4=E5=B7=A5=E5=85=B7=E4=BD=BF=E7=94=A8=E6=96=B9=E6=B3=95=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">npm insta=
+ll -g hyapp-sourcemap
+=E5=91=BD=E4=BB=A4: sm [options]
+option:
+* '-f, map=E6=96=87=E4=BB=B6=E8=B7=AF=E5=BE=84'
+* '-l, =E9=94=99=E8=AF=AF=E8=A1=8C=E5=8F=B7'
+* '-c, =E9=94=99=E8=AF=AF=E5=88=97=E5=8F=B7'
+* '-h, --help'
+
+example=EF=BC=9A
+hyapp-sourcemap apple$ sm -f ./demo/dist/app.min.js.map -l 1 -c 1023
+=E8=BE=93=E5=87=BA=EF=BC=9A
+=E2=98=85sourceFilePath: webpack:///main.js
+=E2=98=85line: 8
+=E2=98=85column: 14
+=E2=98=85name: aaa
+--------start =E9=94=99=E8=AF=AF=E4=BB=A3=E7=A0=81--------
+function test2 () {
+console.log('test2')
+}
+function testError () {
+* console.log(aaa) //=E9=94=99=E8=AF=AF=E8=A1=8C=E4=BC=9A=E6=A0=87=E7=BA=A2=
+=E6=98=BE=E7=A4=BA
+}
+function test3 () {
+console.log('test3')
+}
+function test4 () {
+
+--------end =E9=94=99=E8=AF=AF=E4=BB=A3=E7=A0=81--------</pre>=20
+</div>
+</div>
+<p>=E5=85=AD=E3=80=81bug=E5=88=86=E6=9E=90=E6=B5=81=E7=A8=8B</p>
+<ol>
+<li>webpack =E9=85=8D=E7=BD=AE=E7=94=9F=E6=88=90 .map=E6=96=87=E4=BB=B6=EF=
+=BC=9Adevtool:'#source-map'</li>
+<li>bugly=E6=8D=95=E8=8E=B7=E5=88=B0=E9=94=99=E8=AF=AF=E4=BF=A1=E6=81=AF=E7=
+=9A=84=E8=A1=8C=E5=92=8C=E5=88=97=E5=8F=8Ajs=E6=96=87=E4=BB=B6=E3=80=82</li=
+>
+<li>=E6=89=BE=E5=88=B0=E5=AF=B9=E5=BA=94js=E7=9A=84map=E6=96=87=E4=BB=B6=EF=
+=BC=8C=E7=94=A8hyapp-sourcemap=E8=BF=98=E5=8E=9F=E6=BA=90=E7=A0=81=E4=BF=A1=
+=E6=81=AF=E3=80=82</li>
+</ol>
+    </div>
+</body>
+</html>
+------=_Part_169_735076879.1573026220636--

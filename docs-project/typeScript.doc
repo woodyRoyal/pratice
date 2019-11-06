@@ -1,0 +1,901 @@
+Message-ID: <209150964.172.1573026229755.JavaMail.daemon@7ce466c20647>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_171_1753062025.1573026229755"
+
+------=_Part_171_1753062025.1573026229755
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>typeScript</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>typeScript</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"typescript-=E5=9F=BA=E6=9C=AC=E4=BD=BF=E7=94=A8"><a href=
+=3D"#typescript-=E5=9F=BA=E6=9C=AC=E4=BD=BF=E7=94=A8" id=3D"typescript-=E5=
+=9F=BA=E6=9C=AC=E4=BD=BF=E7=94=A8">typeScript =E5=9F=BA=E6=9C=AC=E4=BD=BF=
+=E7=94=A8</a></h1>=20
+<h2 id=3D"=E5=89=8D=E8=A8=80"><a href=3D"#=E5=89=8D=E8=A8=80" id=3D"=E5=89=
+=8D=E8=A8=80">=E5=89=8D=E8=A8=80</a></h2>=20
+<p>=E7=9B=AE=E5=89=8D Ts =E6=98=AF=E4=B8=80=E4=B8=AA=E8=B6=8B=E5=8A=BF=EF=
+=BC=8C=E5=A4=A7=E5=88=B0=E4=B8=BB=E6=B5=81=E6=A1=86=E6=9E=B6=E5=BA=95=E5=B1=
+=82=E5=AE=9E=E7=8E=B0(Vue,React,Angular)=EF=BC=8C=E5=B0=8F=E5=88=B0=E6=88=
+=91=E4=BB=AC=E4=BD=BF=E7=94=A8=E7=9A=84=E5=BA=93(Axios)=E7=AD=89=E7=AD=89</=
+p>=20
+<h2 id=3D"=E4=B8=80=E4=BD=BF=E7=94=A8-typescript-=E7=9A=84=E5=A5=BD=E5=A4=
+=84"><a href=3D"#=E4=B8=80=E4=BD=BF=E7=94=A8-typescript-=E7=9A=84=E5=A5=BD=
+=E5=A4=84" id=3D"=E4=B8=80=E4=BD=BF=E7=94=A8-typescript-=E7=9A=84=E5=A5=BD=
+=E5=A4=84">=E4=B8=80=E3=80=81=E4=BD=BF=E7=94=A8 TypeScript =E7=9A=84=E5=A5=
+=BD=E5=A4=84</a></h2>=20
+<ul>=20
+<li> <p>=E9=9D=99=E6=80=81=E7=B1=BB=E5=9E=8B=E6=A3=80=E6=9F=A5=EF=BC=8C=E5=
+=8D=B3=E4=BD=BF=E4=BD=A0=E7=BC=96=E5=86=99=E7=9A=84=E4=BB=A3=E7=A0=81=E6=B2=
+=A1=E6=9C=89=E6=89=A7=E8=A1=8C=E5=88=B0=EF=BC=8C=E4=B8=80=E6=97=A6=E5=9C=A8=
+=E7=BC=96=E5=86=99=E4=BB=A3=E7=A0=81=E6=97=B6=E5=8F=91=E7=94=9F=E7=B1=BB=E5=
+=9E=8B=E4=B8=8D=E5=8C=B9=E9=85=8D=EF=BC=8C=E8=AF=AD=E8=A8=80=E5=9C=A8=E7=BC=
+=96=E8=AF=91=E9=98=B6=E6=AE=B5=EF=BC=88=E8=A7=A3=E9=87=8A=E6=89=A7=E8=A1=8C=
+=E4=B9=9F=E4=B8=80=E6=A0=B7=EF=BC=8C=E5=8F=AF=E4=BB=A5=E5=9C=A8=E8=BF=90=E8=
+=A1=8C=E5=89=8D=EF=BC=89=E5=8D=B3=E5=8F=AF=E5=8F=91=E7=8E=B0=E3=80=82</p> <=
+/li>=20
+<li> <p>=E5=8F=AF=E8=AF=BB=E6=80=A7=E5=BC=BA=EF=BC=8C=E5=8F=AF=E4=BB=A5=E7=
+=9B=B4=E6=8E=A5=E7=9C=8B=E5=88=B0=E7=94=B3=E6=98=8E=E5=8F=98=E9=87=8F=E7=9A=
+=84=E7=B1=BB=E5=9E=8B=EF=BC=8C=E5=87=BD=E6=95=B0=E6=98=AF=E5=90=A6=E6=9C=89=
+=E8=BF=94=E5=9B=9E=E5=8F=82=E6=95=B0=E7=AD=89=E7=AD=89...</p> </li>=20
+<li> <p>=E4=BB=A3=E7=A0=81=E7=BA=A6=E6=9D=9F=E6=80=A7=E5=BC=BA=EF=BC=8C=E5=
+=8F=AF=E4=BB=A5=E9=80=9A=E8=BF=87=E6=B3=9B=E5=9E=8B=E3=80=81=E6=8E=A5=E5=8F=
+=A3=E5=AF=B9=E6=9F=90=E4=B8=AA=E5=87=BD=E6=95=B0=E6=88=96=E8=80=85=E5=8F=98=
+=E9=87=8F=E8=BF=9B=E8=A1=8C=E7=BA=A6=E6=9D=9F=EF=BC=8C=E9=98=B2=E6=AD=A2=E5=
+=8F=91=E7=94=9F=E6=88=91=E4=BB=AC=E6=97=A0=E6=B3=95=E9=A2=84=E7=9F=A5=E7=9A=
+=84=E9=94=99=E8=AF=AF</p> <p>=E5=A6=82=E4=B8=8B=EF=BC=9A</p> <pre><code cla=
+ss=3D"language-ts">let a
+a =3D '100'
+if (a =3D=3D=3D 100)
+
+let a:number
+  a =3D '100' // =E7=B1=BB=E5=9E=8B=E4=B8=8D=E5=8C=B9=E9=85=8D
+if (a =3D=3D=3D 100)
+</code></pre> </li>=20
+</ul>=20
+<h2 id=3D"=E4=BA=8C=E5=8F=98=E9=87=8F=E5=A3=B0=E6=98=8E"><a href=3D"#=E4=BA=
+=8C=E5=8F=98=E9=87=8F=E5=A3=B0=E6=98=8E" id=3D"=E4=BA=8C=E5=8F=98=E9=87=8F=
+=E5=A3=B0=E6=98=8E">=E4=BA=8C=E3=80=81=E5=8F=98=E9=87=8F=E5=A3=B0=E6=98=8E<=
+/a></h2>=20
+<ul>=20
+<li> <p>=E5=A6=82=E4=B8=8B=EF=BC=9A</p> <pre><code class=3D"language-ts">va=
+r a =3D 10
+let b =3D 10
+const c =3D 10
+</code></pre>=20
+<table class=3D"confluenceTable">=20
+<thead>=20
+<tr>
+<th>=E5=B1=9E=E6=80=A7</th>
+<th>=E7=89=B9=E7=82=B9</th>
+</tr>=20
+</thead>=20
+<tbody>=20
+<tr>
+<td>var</td>
+<td>=E5=BD=93=E5=89=8D=E4=BD=9C=E7=94=A8=E5=9F=9F=E4=B8=AD=E6=9C=89=E6=95=
+=88=E3=80=81=E5=AD=98=E5=9C=A8=E5=8F=98=E9=87=8F=E6=8F=90=E5=8D=87=E3=80=81=
+=E5=8F=AF=E4=BB=A5=E5=9C=A8=E5=A3=B0=E6=98=8E=E5=89=8D=E8=AE=BF=E9=97=AE</t=
+d>
+</tr>=20
+<tr>
+<td>let</td>
+<td>=E5=BD=93=E5=89=8D=E4=BB=A3=E7=A0=81=E5=9D=97=E4=B8=AD=E6=9C=89=E6=95=
+=88=E3=80=81=E4=B8=8D=E5=AD=98=E5=9C=A8=E5=8F=98=E9=87=8F=E6=8F=90=E5=8D=87=
+=E3=80=81=E4=B8=8D=E5=85=81=E8=AE=B8=E9=87=8D=E5=A4=8D=E5=A3=B0=E6=98=8E=E3=
+=80=81=E4=B8=8D=E5=8F=AF=E4=BB=A5=E5=9C=A8=E5=A3=B0=E6=98=8E=E5=89=8D=E8=AE=
+=BF=E9=97=AE</td>
+</tr>=20
+<tr>
+<td>const</td>
+<td>=E5=BD=93=E5=89=8D=E4=BB=A3=E7=A0=81=E5=9D=97=E4=B8=AD=E6=9C=89=E6=95=
+=88=E3=80=81=E4=B8=8D=E5=AD=98=E5=9C=A8=E5=8F=98=E9=87=8F=E6=8F=90=E5=8D=87=
+=E3=80=81=E4=B8=8D=E5=85=81=E8=AE=B8=E9=87=8D=E5=A4=8D=E5=A3=B0=E6=98=8E=E3=
+=80=81=E5=80=BC=E4=B8=8D=E8=83=BD=E6=94=B9=E5=8F=98=E3=80=81=E4=B8=8D=E5=8F=
+=AF=E4=BB=A5=E5=9C=A8=E5=A3=B0=E6=98=8E=E5=89=8D=E8=AE=BF=E9=97=AE</td>
+</tr>=20
+</tbody>=20
+</table> </li>=20
+</ul>=20
+<h2 id=3D"=E4=B8=89=E5=9F=BA=E7=A1=80=E7=B1=BB=E5=9E=8B"><a href=3D"#=E4=B8=
+=89=E5=9F=BA=E7=A1=80=E7=B1=BB=E5=9E=8B" id=3D"=E4=B8=89=E5=9F=BA=E7=A1=80=
+=E7=B1=BB=E5=9E=8B">=E4=B8=89=E3=80=81=E5=9F=BA=E7=A1=80=E7=B1=BB=E5=9E=8B<=
+/a></h2>=20
+<ul>=20
+<li> <p>=E5=B8=83=E5=B0=94=E5=80=BC</p> <pre><code class=3D"language-ts">le=
+t isDone: boolean =3D false
+</code></pre> </li>=20
+<li> <p>=E6=95=B0=E5=AD=97</p> <pre><code class=3D"language-ts">let decLite=
+ral: number =3D 20
+</code></pre> </li>=20
+<li> <p>=E5=AD=97=E7=AC=A6=E4=B8=B2</p> <pre><code class=3D"language-ts">le=
+t name: string =3D 'bob'
+</code></pre> </li>=20
+<li> <p>=E6=95=B0=E7=BB=84</p> <pre><code class=3D"language-ts">let list: n=
+umber[] =3D [1, 2, 3]
+let list: Array&lt;number&gt; =3D [1, 2, 3]
+</code></pre> </li>=20
+<li> <p>any =E4=BB=BB=E6=84=8F=E7=B1=BB=E5=9E=8B</p> <pre><code class=3D"la=
+nguage-ts">let notSure: any =3D 4
+</code></pre> </li>=20
+<li> <p>=E5=85=83=E7=A5=96 Tuple(=E7=BA=A6=E6=9D=9F=E6=95=B0=E7=BB=84=E7=B1=
+=BB=E5=9E=8B))</p> <pre><code class=3D"language-ts">let x: [string, number]
+x =3D ['hello', 10] // OK
+</code></pre> </li>=20
+<li> <p>=E6=9E=9A=E4=B8=BE</p>=20
+<ul>=20
+<li> <p>=E9=BB=98=E8=AE=A4=E6=83=85=E5=86=B5=E4=B8=8B=EF=BC=8C=E4=BB=8E 0 =
+=E5=BC=80=E5=A7=8B=E7=BA=BF=E6=80=A7=E9=80=92=E5=A2=9E=E3=80=82</p> <pre><c=
+ode class=3D"language-ts">enum Color {
+  Red,
+  Green,
+  Blue
+}
+let c: Color =3D Color.Green
+console.log(c) // 1
+</code></pre> </li>=20
+<li> <p>=E4=B9=9F=E5=8F=AF=E4=BB=A5=E6=89=8B=E5=8A=A8=E7=9A=84=E6=8C=87=E5=
+=AE=9A=E6=88=90=E5=91=98=E7=9A=84=E6=95=B0=E5=80=BC</p> <pre><code class=3D=
+"language-ts">enum Color {
+  Red =3D 10,
+  Green =3D 11,
+  Blue =3D 12
+}
+let c: Color =3D Color.Green
+console.log(c) // 11
+</code></pre> </li>=20
+<li> <p>=E6=9E=9A=E4=B8=BE=E7=B1=BB=E5=9E=8B=E6=8F=90=E4=BE=9B=E7=9A=84=E4=
+=B8=80=E4=B8=AA=E4=BE=BF=E5=88=A9=E6=98=AF=E4=BD=A0=E5=8F=AF=E4=BB=A5=E7=94=
+=B1=E6=9E=9A=E4=B8=BE=E7=9A=84=E5=80=BC=E5=BE=97=E5=88=B0=E5=AE=83=E7=9A=84=
+=E5=90=8D=E5=AD=97</p> <pre><code class=3D"language-ts">enum Color {
+  Red =3D 10,
+  Green,
+  Blue
+}
+let colorName: string =3D Color[11]
+console.log(c) // Green
+</code></pre> </li>=20
+<li> <p>=E5=9F=BA=E7=A1=80=E7=B1=BB=E5=9E=8B=E8=BF=98=E6=9C=89 void(=E6=97=
+=A0=E8=BF=94=E5=9B=9E=E5=80=BC)=E3=80=81Null =E5=92=8C Undefined=E3=80=81Ne=
+ver(=E5=BC=82=E5=B8=B8=E6=88=96=E8=80=85=E6=AD=BB=E5=BE=AA=E7=8E=AF),</p> <=
+/li>=20
+</ul> </li>=20
+</ul>=20
+<h2 id=3D"=E5=9B=9B=E9=AB=98=E7=BA=A7=E7=B1=BB=E5=9E=8B"><a href=3D"#=E5=9B=
+=9B=E9=AB=98=E7=BA=A7=E7=B1=BB=E5=9E=8B" id=3D"=E5=9B=9B=E9=AB=98=E7=BA=A7=
+=E7=B1=BB=E5=9E=8B">=E5=9B=9B=E3=80=81=E9=AB=98=E7=BA=A7=E7=B1=BB=E5=9E=8B<=
+/a></h2>=20
+<ul>=20
+<li> <p>=E4=BA=A4=E5=8F=89=E7=B1=BB=E5=9E=8B(=E5=A4=9A=E4=B8=AA=E7=B1=BB=E5=
+=9E=8B=E7=BB=84=E6=88=90=E6=96=B0=E7=9A=84=E7=B1=BB=E5=9E=8B=EF=BC=8C=E6=96=
+=B0=E7=B1=BB=E5=9E=8B=E5=8C=85=E5=90=AB=E4=BA=86=E5=8E=9F=E7=B1=BB=E5=9E=8B=
+=E7=9A=84=E6=89=80=E6=9C=89=E5=B1=9E=E6=80=A7)</p> <pre><code class=3D"lang=
+uage-ts">function mixins&lt;T, U&gt;(userInfo: T, Log: U): T &amp; U {
+  let result =3D &lt;T &amp; U&gt;{}
+  for (let id in userInfo) {
+    ;(&lt;any&gt;result)[id] =3D (&lt;any&gt;userInfo)[id]
+  }
+  for (let id in Log) {
+    ;(&lt;any&gt;result)[id] =3D (&lt;any&gt;Log)[id]
+  }
+  return result
+}
+
+class UserInfo {
+  constructor(public name: string, public age: Number) {}
+}
+
+class Log {
+  print() {
+    console.log('Log')
+  }
+}
+
+let user =3D mixins(new UserInfo('hl', 25), new Log())
+console.log(user.name)
+user.print()
+</code></pre> </li>=20
+<li> <p>=E8=81=94=E5=90=88=E7=B1=BB=E5=9E=8B(=E8=81=94=E5=90=88=E7=B1=BB=E5=
+=9E=8B=E6=98=AF=E5=A4=9A=E4=B8=AA=E7=B1=BB=E5=9E=8B=E7=BB=84=E5=90=88=E8=80=
+=8C=E6=88=90=EF=BC=8C=E5=8F=AA=E8=A6=81=E6=BB=A1=E8=B6=B3=E5=85=B6=E4=B8=AD=
+=E4=B8=80=E4=B8=AA=E7=B1=BB=E5=9E=8B=E5=8D=B3=E5=8F=AF=E3=80=82)</p> <pre><=
+code class=3D"language-ts">let time: number | string | Date
+time =3D 1569218501063
+time =3D '1569218501063'
+time =3D new Date()
+</code></pre> </li>=20
+<li> <p>=E9=AB=98=E7=BA=A7=E7=B1=BB=E5=9E=8B=E8=BF=98=E6=9C=89=E7=B1=BB=E5=
+=9E=8B=E4=BF=9D=E6=8A=A4=E3=80=81=E7=B1=BB=E5=9E=8B=E6=96=AD=E8=A8=80=E7=AD=
+=89=E7=AD=89</p> </li>=20
+</ul>=20
+<h2 id=3D"=E4=BA=94=E6=8E=A5=E5=8F=A3"><a href=3D"#=E4=BA=94=E6=8E=A5=E5=8F=
+=A3" id=3D"=E4=BA=94=E6=8E=A5=E5=8F=A3">=E4=BA=94=E3=80=81=E6=8E=A5=E5=8F=
+=A3</a></h2>=20
+<ul>=20
+<li> <p>TypeScript =E7=9A=84=E6=A0=B8=E5=BF=83=E5=8E=9F=E5=88=99=E4=B9=8B=
+=E4=B8=80=E6=98=AF=E5=AF=B9=E5=80=BC=E6=89=80=E5=85=B7=E6=9C=89=E7=9A=84=E7=
+=BB=93=E6=9E=84=E8=BF=9B=E8=A1=8C=E7=B1=BB=E5=9E=8B=E6=A3=80=E6=9F=A5=E3=80=
+=82=E5=AE=83=E6=9C=89=E6=97=B6=E8=A2=AB=E7=A7=B0=E5=81=9A=E2=80=9C=E9=B8=AD=
+=E5=BC=8F=E8=BE=A8=E5=9E=8B=E6=B3=95=E2=80=9D=E6=88=96=E2=80=9C=E7=BB=93=E6=
+=9E=84=E6=80=A7=E5=AD=90=E7=B1=BB=E5=9E=8B=E5=8C=96=E2=80=9D=E3=80=82 =E5=
+=9C=A8 TypeScript =E9=87=8C=EF=BC=8C=E6=8E=A5=E5=8F=A3=E7=9A=84=E4=BD=9C=E7=
+=94=A8=E5=B0=B1=E6=98=AF=E4=B8=BA=E8=BF=99=E4=BA=9B=E7=B1=BB=E5=9E=8B=E5=91=
+=BD=E5=90=8D=E5=92=8C=E4=B8=BA=E4=BD=A0=E7=9A=84=E4=BB=A3=E7=A0=81=E6=88=96=
+=E7=AC=AC=E4=B8=89=E6=96=B9=E4=BB=A3=E7=A0=81=E5=AE=9A=E4=B9=89=E5=A5=91=E7=
+=BA=A6=E3=80=82</p>=20
+<ul>=20
+<li> <p>=E5=B1=9E=E6=80=A7=E7=BA=A6=E6=9D=9F</p> <pre><code class=3D"langua=
+ge-ts">interface Point {
+  x: number
+  y: number
+}
+let p1: Point =3D { x: 10, y: 20 }
+</code></pre> </li>=20
+<li> <p>=E7=BB=A7=E6=89=BF(=E5=8F=AF=E4=BB=A5=E5=A4=9A=E7=BB=A7=E6=89=BF))<=
+/p> <pre><code class=3D"language-ts">interface IUserInfo {
+  getUserlist(): any
+}
+
+interface IAccount {
+  getAccounlist(): any
+}
+
+interface IList extends IAccount, IUserInfo {}
+</code></pre> </li>=20
+<li> <p>=E6=8E=A5=E5=8F=A3=E7=BB=A7=E6=89=BF=E7=B1=BB</p> <pre><code class=
+=3D"language-ts">class IUserInfo {
+  getUserlist(): void {}
+}
+
+interface IList extends IUserInfo {}
+
+class ListServerImpl implements IList {
+  getUserlist(): void {}
+}
+
+// ------------------------------=E5=88=86=E5=89=B2=E7=BA=BF---------------=
+-----------------------------
+
+class IUserInfo {
+  private getUserlist(): void {}
+}
+
+interface IList extends IUserInfo {}
+// =E5=A6=82=E6=9E=9C=E7=B1=BB=E6=9C=89=E7=A7=81=E6=9C=89=E7=9A=84=E5=B1=9E=
+=E6=80=A7=E6=88=96=E8=80=85=E6=96=B9=E6=B3=95=E6=AC=A1=E6=8E=A5=E5=8F=A3=E4=
+=B8=8D=E8=83=BD=E7=9B=B4=E6=8E=A5=E8=A2=AB=E7=B1=BB=E5=AE=9E=E7=8E=B0
+class ListServerImpl implements IList {
+  // =E6=8A=A5=E9=94=99
+  getUserlist(): void {}
+}
+</code></pre> </li>=20
+<li> <p>=E6=8E=A5=E5=8F=A3=E7=BB=93=E8=AE=BA=EF=BC=9A=E6=8E=A5=E5=8F=A3=E5=
+=8F=AF=E4=BB=A5=E7=BB=A7=E6=89=BF=E6=8E=A5=E5=8F=A3=E3=80=81=E6=8E=A5=E5=8F=
+=A3=E5=8F=AF=E4=BB=A5=E7=BB=A7=E6=89=BF=E7=B1=BB=EF=BC=8C=E6=8E=A5=E5=8F=A3=
+=E4=B8=8D=E8=83=BD=E5=AE=9E=E7=8E=B0=E6=8E=A5=E5=8F=A3=E3=80=81=E6=8E=A5=E5=
+=8F=A3=E5=8F=AF=E4=BB=A5=E5=A4=9A=E7=BB=A7=E6=89=BF=E3=80=81=E7=B1=BB=E5=8F=
+=AF=E4=BB=A5=E5=AE=9E=E7=8E=B0=E6=8E=A5=E5=8F=A3=E3=80=81=E4=B8=8D=E8=83=BD=
+=E7=BB=A7=E6=89=BF=E6=8E=A5=E5=8F=A3 =E5=A6=82=E6=9E=9C=E6=8E=A5=E5=8F=A3=
+=E7=BB=A7=E6=89=BF=E4=BA=86=E4=B8=80=E4=B8=AA=E7=B1=BB=EF=BC=8C=E8=BF=99=E4=
+=B8=AA=E7=B1=BB=E6=9C=89=E7=A7=81=E6=9C=89=E7=9A=84=E5=B1=9E=E6=80=A7=E6=88=
+=96=E8=80=85=E6=96=B9=E6=B3=95=EF=BC=8C=E6=AD=A4=E8=BF=99=E4=B8=AA=E6=8E=A5=
+=E5=8F=A3=E4=B8=8D=E8=83=BD=E8=A2=AB=E7=B1=BB=E7=9B=B4=E6=8E=A5=E5=8E=BB=E5=
+=AE=9E=E7=8E=B0=EF=BC=8C=E5=BF=85=E9=A1=BB=E5=85=88=E7=BB=A7=E6=89=BF=E7=B1=
+=BB=EF=BC=8C=E5=9C=A8=E5=AE=9E=E7=8E=B0=E6=8E=A5=E5=8F=A3</p> </li>=20
+</ul> </li>=20
+</ul>=20
+<h2 id=3D"=E5=85=AD=E7=B1=BB"><a href=3D"#=E5=85=AD=E7=B1=BB" id=3D"=E5=85=
+=AD=E7=B1=BB">=E5=85=AD=E3=80=81=E7=B1=BB</a></h2>=20
+<ul>=20
+<li> <p>=E7=B1=BB=E5=8F=AF=E4=BB=A5=E8=A2=AB=E7=BB=A7=E6=89=BF=EF=BC=8C=E7=
+=B1=BB=E5=8F=AF=E4=BB=A5=E5=AE=9E=E7=8E=B0=E6=8E=A5=E5=8F=A3=EF=BC=8C=E5=A6=
+=82=E6=9E=9C=E7=B1=BB=E5=AE=9E=E7=8E=B0=E4=BA=86=E6=8E=A5=E5=8F=A3=EF=BC=8C=
+=E5=BF=85=E9=A1=BB=E5=AE=9E=E7=8E=B0=E6=8E=A5=E5=8F=A3=E4=B8=AD=E6=89=80=E6=
+=9C=89=E7=9A=84=E5=B1=9E=E6=80=A7=E5=92=8C=E6=96=B9=E6=B3=95</p> <pre><code=
+ class=3D"language-ts">interface IUserInfo {
+  userName: string
+  getUserlist(): void
+}
+
+interface IList extends IUserInfo {}
+
+class ListServerImpl implements IList {
+  userName: string
+  // =E5=B1=9E=E6=80=A7=E5=BF=85=E9=A1=BB=E9=80=9A=E8=BF=87=E6=9E=84=E9=80=
+=A0=E5=AE=9E=E7=8E=B0
+  constructor(userName: string) {
+    this.userName =3D userName
+  }
+  getUserlist(): void {}
+}
+</code></pre> </li>=20
+<li> <p>super:=E5=8F=AF=E4=BB=A5=E9=80=9A=E8=BF=87 super =E7=9B=B4=E6=8E=A5=
+=E8=B0=83=E7=94=A8=E7=88=B6=E7=B1=BB=E7=9A=84=E6=96=B9=E6=B3=95</p> <pre><c=
+ode class=3D"language-ts">class BaseController {
+  model: string
+  constructor(model: string) {
+    this.model =3D model
+    console.log('super')
+  }
+  queryList() {
+    console.log('queryList')
+  }
+}
+
+class UserController extends BaseController {
+  constructor(model: string) {
+    super(model)
+  }
+
+  query() {
+    super.queryList()
+  }
+}
+
+let userController =3D new UserController('user') // super
+userController.query() // queryList
+</code></pre> </li>=20
+<li> <p>6.1 =E6=8A=BD=E8=B1=A1=E7=B1=BB</p>=20
+<ul>=20
+<li> <p>=E6=8A=BD=E8=B1=A1=E7=B1=BB=E5=81=9A=E4=B8=BA=E5=85=B6=E5=AE=83=E6=
+=B4=BE=E7=94=9F=E7=B1=BB=E7=9A=84=E5=9F=BA=E7=B1=BB=E4=BD=BF=E7=94=A8,=E4=
+=B8=8D=E8=83=BD=E7=9B=B4=E6=8E=A5=E8=A2=AB=E5=AE=9E=E4=BE=8B=E5=8C=96=EF=BC=
+=8C=E6=8A=BD=E8=B1=A1=E6=96=B9=E6=B3=95=E4=B8=8D=E8=83=BD=E6=9C=89=E5=87=BD=
+=E6=95=B0=E4=BD=93=EF=BC=8C=E8=A2=AB=E7=BB=A7=E6=89=BF=E5=90=8E=E5=BF=85=E9=
+=A1=BB=E5=AE=9E=E7=8E=B0=E6=89=80=E6=9C=89=E7=9A=84=E6=8A=BD=E8=B1=A1=E6=96=
+=B9=E6=B3=95</p> <pre><code class=3D"language-ts">abstract class Animal {
+  name: string
+  age: number
+  constructor(name: string, age: number) {
+    this.name =3D name
+    this.age =3D age
+  }
+  abstract action(): void
+}
+
+class Dog extends Animal {
+  constructor(name: string, age: number) {
+    super(name, age)
+  }
+  action() {
+    console.log(this.name, this.age)
+  }
+}
+
+let dog =3D new Dog('Dog', 5)
+
+dog.action()
+</code></pre> </li>=20
+</ul> </li>=20
+<li> <p>6.2 =E7=B1=BB=E7=BB=A7=E6=89=BF=E7=9A=84=E5=AE=9E=E9=99=85=E5=9C=BA=
+=E6=99=AF</p>=20
+<ul>=20
+<li> <p>=E5=9C=A8=E7=BA=AF=E5=89=8D=E7=AB=AF=E5=BC=80=E5=8F=91=E4=B8=AD=E7=
+=BB=A7=E6=89=BF=E5=85=B6=E5=AE=9E=E7=94=A8=E7=9A=84=E5=BE=88=E5=B0=91=EF=BC=
+=8C=E5=A6=82=E6=9E=9C=E6=98=AF=E5=9C=A8=E6=9C=8D=E5=8A=A1=E5=99=A8=E7=AB=AF=
+=EF=BC=8C=E5=BE=88=E5=A4=9A=E3=80=82=E6=AF=94=E5=A6=82=E7=94=A8 egg =E5=AE=
+=9E=E7=8E=B0=E4=B8=80=E4=B8=AA=E5=90=8E=E5=8F=B0=E7=AE=A1=E7=90=86=E7=B3=BB=
+=E7=BB=9F=EF=BC=8C=E5=81=87=E5=A6=82=E6=88=91=E4=BB=AC=E6=9C=89 100 =E5=BC=
+=A0=E8=A1=A8=EF=BC=8C=E6=AF=8F=E4=B8=80=E4=B8=AA=E5=BC=A0=E8=A1=A8=E9=83=BD=
+=E6=9C=89=E5=A2=9E=E3=80=81=E5=88=A0=E3=80=81=E6=94=B9=E3=80=81=E6=9F=A5=E7=
+=9A=84=E6=93=8D=E4=BD=9C=EF=BC=8C100*4=3D400=EF=BC=8C=E4=B9=9F=E5=B0=B1=E6=
+=98=AF=E8=AF=B4=E6=88=91=E4=BB=AC=E9=9C=80=E8=A6=81=E5=AE=9E=E7=8E=B0 400 =
+=E4=B8=AA=E6=96=B9=E6=B3=95=EF=BC=8C=E6=AF=8F=E6=AC=A1=E6=96=B0=E5=8A=A0=E4=
+=B8=80=E5=BC=A0=E8=A1=A8=E4=B9=8B=E5=89=8D=E7=9A=84=E9=83=BD=E6=9C=89=E9=9C=
+=80=E8=A6=81=E5=A4=8D=E5=88=B6=E4=B8=80=E9=81=8D</p> </li>=20
+<li> <p>=E5=A6=82=E4=BD=95=E7=AE=80=E4=BE=BF=E8=BF=99=E4=BA=9B=E6=93=8D=E4=
+=BD=9C=E5=B0=B1=E6=98=AF=E6=8F=90=E5=8F=96 base =E5=87=BD=E6=95=B0=EF=BC=8C=
+=E6=89=80=E6=9C=89=E7=9A=84=E8=A6=81=E5=AE=9E=E7=8E=B0=E5=A2=9E=E3=80=81=E5=
+=88=A0=E3=80=81=E6=94=B9=E3=80=81=E6=9F=A5=E7=9A=84=E6=93=8D=E4=BD=9C=E7=9B=
+=B4=E6=8E=A5=E5=8E=BB=E7=BB=A7=E6=89=BF base</p> </li>=20
+<li> <p>BaseController</p> <pre><code class=3D"language-ts">const { Control=
+ler } =3D require('egg')
+
+class BaseController extends Controller {
+  success(data) {
+    this.ctx.body =3D {
+      success: true,
+      code: '0000000',
+      data
+    }
+  }
+  error(error) {
+    this.ctx.body =3D {
+      success: false,
+      code: '0000500',
+      error
+    }
+  }
+  // =E6=9F=A5=E8=AF=A2
+  async index() {
+    const { ctx, service } =3D this
+    let { pageNum, pageSize, ...where } =3D ctx.query
+    const result =3D await service[this.model].list(pageNum, pageSize, wher=
+e)
+    this.success(result)
+  }
+  // =E6=96=B0=E5=A2=9E
+  async create() {
+    const { ctx, service } =3D this
+    const entity =3D ctx.request.body
+    const result =3D await service[this.model].create(entity)
+    if (result.affectedRows &gt; 0) {
+      this.success(result.insertId)
+    } else {
+      this.error('=E6=B7=BB=E5=8A=A0=E5=A4=B1=E8=B4=A5')
+    }
+  }
+  // =E6=9B=B4=E6=96=B0
+  async update() {
+    const { ctx, service } =3D this
+    const id =3D ctx.params.id
+    const entity =3D ctx.request.body
+    entity.id =3D id
+    const result =3D await service[this.model].update(entity)
+    if (result.affectedRows &gt; 0) {
+      this.success('=E6=9B=B4=E6=96=B0=E6=88=90=E5=8A=9F')
+    } else {
+      this.error('=E6=9B=B4=E6=96=B0=E5=A4=B1=E8=B4=A5')
+    }
+  }
+  // =E5=88=A0=E9=99=A4
+  async destroy() {
+    const { ctx, service } =3D this
+    const id =3D ctx.params.id
+    let ids =3D ctx.request.body
+    if (!ids) {
+      ids =3D [id]
+    }
+    const result =3D await service[this.model].destroy(ids)
+    if (result.affectedRows &gt; 0) {
+      this.success('=E5=88=A0=E9=99=A4=E6=88=90=E5=8A=9F')
+    } else {
+      this.error('=E5=88=A0=E9=99=A4=E5=A4=B1=E8=B4=A5')
+    }
+  }
+}
+
+module.exports =3D BaseController
+</code></pre> <pre><code class=3D"language-ts">const BaseController =3D req=
+uire('./baseController')
+
+class UserController extends BaseController {
+  constructor(...args) {
+    super(...args)
+    this.model =3D 'user' // =E6=A8=A1=E5=9E=8B(=E8=A1=A8=E5=90=8D)
+  }
+}
+
+module.exports =3D RoleResourceController
+</code></pre> </li>=20
+</ul> </li>=20
+</ul>=20
+<h2 id=3D"=E4=B8=83=E5=87=BD=E6=95=B0=E7=AE=AD=E5=A4=B4=E5=87=BD=E6=95=B0">=
+<a href=3D"#=E4=B8=83=E5=87=BD=E6=95=B0=E7=AE=AD=E5=A4=B4=E5=87=BD=E6=95=B0=
+" id=3D"=E4=B8=83=E5=87=BD=E6=95=B0=E7=AE=AD=E5=A4=B4=E5=87=BD=E6=95=B0">=
+=E4=B8=83=E3=80=81=E5=87=BD=E6=95=B0(=E7=AE=AD=E5=A4=B4=E5=87=BD=E6=95=B0)<=
+/a></h2>=20
+<ul>=20
+<li> <p>=E7=AE=AD=E5=A4=B4=E5=87=BD=E6=95=B0 this,=E5=9C=A8=E5=AE=9A=E4=B9=
+=89=E7=9A=84=E6=97=B6=E5=80=99=E5=B0=B1=E5=B7=B2=E7=BB=8F=E7=A1=AE=E8=AE=A4=
+=E4=BA=86=EF=BC=8C=E6=8C=87=E5=90=91=E5=BD=93=E5=89=8D=E5=AE=9A=E4=B9=89=E7=
+=9A=84=E7=8E=AF=E5=A2=83=E7=9A=84=E4=B8=8A=E4=B8=8B=E6=96=87</p> </li>=20
+<li> <p>=E7=AE=AD=E5=A4=B4=E5=87=BD=E6=95=B0=E6=B2=A1=E6=9C=89 arguments</p=
+> </li>=20
+<li> <p>=E7=AE=AD=E5=A4=B4=E5=87=BD=E6=95=B0=E6=B2=A1=E6=9C=89 prototype</p=
+> </li>=20
+<li> <p>=E7=AE=AD=E5=A4=B4=E5=87=BD=E6=95=B0=E4=B8=8D=E8=83=BD=E8=A2=AB=E5=
+=AE=9E=E4=BE=8B=E5=8C=96=EF=BC=8C=E4=B8=BA=E4=BB=80=E4=B9=88=EF=BC=9F</p>=
+=20
+<ul>=20
+<li> <p>new =E6=93=8D=E4=BD=9C=EF=BC=8C=E7=AC=AC=E4=B8=80=E6=AD=A5=E9=9C=80=
+=E8=A6=81=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E6=96=B0=E7=9A=84=E5=AF=B9=E8=
+=B1=A1=EF=BC=8C=E7=AC=AC=E4=BA=8C=E6=AD=A5 this =E4=BC=9A=E6=8C=87=E5=90=91=
+=E8=BF=99=E4=B8=AA=E6=96=B0=E5=88=9B=E5=BB=BA=E7=9A=84=E5=AF=B9=E8=B1=A1=EF=
+=BC=8C=E7=AC=AC=E4=B8=89=E6=AD=A5=E9=9A=90=E5=BC=8F=E5=8E=9F=E5=9E=8B=E6=8C=
+=87=E5=90=91=E6=98=BE=E7=A4=BA=E5=8E=9F=E5=9E=8B</p> </li>=20
+<li> <p>=E5=9B=A0=E4=B8=BA=E7=AE=AD=E5=A4=B4=E5=87=BD=E6=95=B0=E6=B2=A1=E6=
+=9C=89 prototype =E6=89=80=E6=9C=89=E4=B8=8D=E6=BB=A1=E8=B6=B3 new =E6=93=
+=8D=E4=BD=9C=E7=9A=84=E6=89=A7=E8=A1=8C=E7=9A=84=E6=AD=A5=E9=AA=A4</p> <pre=
+><code class=3D"language-ts">let user =3D () =3D&gt; {}
+
+new user() //Error
+</code></pre> </li>=20
+</ul> </li>=20
+</ul>=20
+<h2 id=3D"=E5=85=AB=E6=B3=9B=E5=9E=8B"><a href=3D"#=E5=85=AB=E6=B3=9B=E5=9E=
+=8B" id=3D"=E5=85=AB=E6=B3=9B=E5=9E=8B">=E5=85=AB=E3=80=81=E6=B3=9B=E5=9E=
+=8B</a></h2>=20
+<ul>=20
+<li> <p>=E8=BD=AF=E4=BB=B6=E5=B7=A5=E7=A8=8B=E4=B8=AD=EF=BC=8C=E6=88=91=E4=
+=BB=AC=E4=B8=8D=E4=BB=85=E8=A6=81=E5=88=9B=E5=BB=BA=E5=AE=9A=E4=B9=89=E8=89=
+=AF=E5=A5=BD=E4=B8=94=E4=B8=80=E8=87=B4=E7=9A=84 API=EF=BC=8C=E5=90=8C=E6=
+=97=B6=E4=B9=9F=E8=A6=81=E8=80=83=E8=99=91=E5=8F=AF=E9=87=8D=E7=94=A8=E6=80=
+=A7=E3=80=82 =E7=BB=84=E4=BB=B6=E4=B8=8D=E4=BB=85=E8=83=BD=E5=A4=9F=E6=94=
+=AF=E6=8C=81=E5=BD=93=E5=89=8D=E7=9A=84=E6=95=B0=E6=8D=AE=E7=B1=BB=E5=9E=8B=
+=EF=BC=8C=E5=90=8C=E6=97=B6=E4=B9=9F=E8=83=BD=E6=94=AF=E6=8C=81=E6=9C=AA=E6=
+=9D=A5=E7=9A=84=E6=95=B0=E6=8D=AE=E7=B1=BB=E5=9E=8B=EF=BC=8C=E8=BF=99=E5=9C=
+=A8=E5=88=9B=E5=BB=BA=E5=A4=A7=E5=9E=8B=E7=B3=BB=E7=BB=9F=E6=97=B6=E4=B8=BA=
+=E4=BD=A0=E6=8F=90=E4=BE=9B=E4=BA=86=E5=8D=81=E5=88=86=E7=81=B5=E6=B4=BB=E7=
+=9A=84=E5=8A=9F=E8=83=BD=E3=80=82</p> </li>=20
+<li> <p>=E6=B3=9B=E5=9E=8B=E5=8F=98=E9=87=8F</p> <pre><code class=3D"langua=
+ge-ts">let list: Array&lt;number&gt; =3D [1, 2, 3]
+</code></pre> </li>=20
+<li> <p>=E6=B3=9B=E5=9E=8B=E5=87=BD=E6=95=B0</p> <pre><code class=3D"langua=
+ge-ts">function identity&lt;T&gt;(arg: T): T {
+  return arg
+}
+identity&lt;string&gt;('10')
+</code></pre> </li>=20
+<li> <p>=E6=B3=9B=E5=9E=8B=E7=B1=BB</p> <pre><code class=3D"language-ts">cl=
+ass GenericNumber&lt;T&gt; {
+  add: (x: T, y: T) =3D&gt; T
+}
+
+let genericNumber =3D new GenericNumber&lt;number&gt;()
+genericNumber.add =3D function(x, y) {
+  return x + y
+}
+console.log(genericNumber.add(1, 1))
+</code></pre> </li>=20
+<li> <p>=E6=B3=9B=E5=9E=8B=E6=8E=A5=E5=8F=A3(=E7=BA=A6=E6=9D=9F)</p>=20
+<ul>=20
+<li> <p>=E8=B0=83=E7=94=A8=E6=97=B6=E7=BA=A6=E6=9D=9F</p> <pre><code class=
+=3D"language-ts">interface GenericIdentityFn {
+  &lt;T&gt;(arg: T): T
+}
+
+function identity&lt;T&gt;(arg: T): T {
+  return arg
+}
+
+let myIdentity: GenericIdentityFn =3D identity
+
+myIdentity&lt;number&gt;(10)
+</code></pre> </li>=20
+<li> <p>=E5=AE=9A=E4=B9=89=E6=97=B6=E7=BA=A6=E6=9D=9F</p> <pre><code class=
+=3D"language-ts">interface GenericIdentityFn&lt;T&gt; {
+  (arg: T): T
+}
+
+function identity&lt;T&gt;(arg: T): T {
+  return arg
+}
+
+let myIdentity: GenericIdentityFn&lt;number&gt; =3D identity
+
+myIdentity(10)
+</code></pre> </li>=20
+</ul> </li>=20
+</ul>=20
+<h2 id=3D"=E4=B9=9D=E8=A3=85=E9=A5=B0=E5=99=A8"><a href=3D"#=E4=B9=9D=E8=A3=
+=85=E9=A5=B0=E5=99=A8" id=3D"=E4=B9=9D=E8=A3=85=E9=A5=B0=E5=99=A8">=E4=B9=
+=9D=E3=80=81=E8=A3=85=E9=A5=B0=E5=99=A8</a></h2>=20
+<ul>=20
+<li> <p>=E8=A3=85=E9=A5=B0=E5=99=A8=E5=85=B6=E5=AE=9E=E6=98=AF=E4=B8=80=E7=
+=A7=8D=E8=AE=BE=E8=AE=A1=E6=A8=A1=E5=BC=8F=EF=BC=8C=E5=AE=83=E5=8F=AF=E4=BB=
+=A5=E5=9C=A8=E4=B8=8D=E6=94=B9=E5=8F=98=E5=8E=9F=E6=9C=89=E7=9A=84=E7=BB=93=
+=E6=9E=84=E6=83=85=E5=86=B5=E4=B8=8B,=E6=B7=BB=E5=8A=A0=E6=96=B0=E7=9A=84=
+=E5=8A=9F=E8=83=BD =E5=9C=A8 react(HOC)=E4=B8=AD=E4=BD=BF=E7=94=A8=E6=AF=94=
+=E8=BE=83=E5=A4=9A</p> </li>=20
+<li> <p>=E8=A3=85=E9=A5=B0=E5=99=A8=EF=BC=8C=E5=85=B6=E5=AE=9E=E5=B0=B1=E6=
+=98=AF=E4=B8=80=E8=88=AC=E7=9A=84=E5=87=BD=E6=95=B0=E4=BD=93=EF=BC=8C=E6=9C=
+=89=E4=B8=89=E4=B8=AA=E5=8F=82=E6=95=B0 target, key, decorator</p> </li>=20
+<li> <p>=E5=A6=82=E6=9E=9C=E6=98=AF=E8=A3=85=E9=A5=B0=E5=9C=A8=E7=B1=BB=E4=
+=B8=8A=EF=BC=8Ctarget =E5=B0=B1=E6=98=AF=E7=B1=BB=E6=9C=AC=E8=BA=AB=EF=BC=
+=8C=E6=96=B0=E5=A2=9E=E7=9A=84=E5=B1=9E=E6=80=A7=E5=92=8C=E6=96=B9=E6=B3=95=
+=E9=83=BD=E4=BC=9A=E7=9B=B4=E6=8E=A5=E6=8C=82=E8=BD=BD=E5=88=B0=E9=9D=99=E6=
+=80=81=E5=B1=9E=E6=80=A7=E5=92=8C=E9=9D=99=E6=80=81=E6=96=B9=E6=B3=95=E4=B8=
+=8A</p> </li>=20
+<li> <p>=E5=A6=82=E6=9E=9C=E6=98=AF=E8=A3=85=E9=A5=B0=E5=9C=A8=E6=96=B9=E6=
+=B3=95=E4=B8=8A=EF=BC=8Ctarget =E5=B0=B1=E6=98=AF=E7=B1=BB=E5=8E=9F=E5=9E=
+=8B=EF=BC=8C=E6=96=B0=E5=A2=9E=E7=9A=84=E5=B1=9E=E6=80=A7=E5=92=8C=E6=96=B9=
+=E6=B3=95=E9=83=BD=E4=BC=9A=E7=9B=B4=E6=8E=A5=E6=8C=82=E8=BD=BD=E5=88=B0=E5=
+=8E=9F=E5=9E=8B=E5=B1=9E=E6=80=A7=E3=80=81=E6=96=B9=E6=B3=95=EF=BC=8Ckey =
+=E5=B0=B1=E6=98=AF=E6=96=B9=E6=B3=95=E5=90=8D=E7=A7=B0=EF=BC=8Cdecorator =
+=E5=B0=B1=E6=98=AF=E5=AF=B9=E5=87=BD=E6=95=B0=E7=9A=84=E7=BA=A6=E6=9D=9F=EF=
+=BC=8C=E5=8F=AF=E4=BB=A5=E4=BF=AE=E6=94=B9=E7=BA=A6=E6=9D=9F</p> </li>=20
+<li> <p>=E5=A6=82=E6=9E=9C=E6=98=AF=E8=A3=85=E9=A5=B0=E5=9C=A8=E5=B1=9E=E6=
+=80=A7=E4=B8=8A=EF=BC=8Ctarget =E5=B0=B1=E6=98=AF=E7=B1=BB=E5=8E=9F=E5=9E=
+=8B=EF=BC=8C=E6=96=B0=E5=A2=9E=E7=9A=84=E5=B1=9E=E6=80=A7=E5=92=8C=E6=96=B9=
+=E6=B3=95=E9=83=BD=E4=BC=9A=E7=9B=B4=E6=8E=A5=E6=8C=82=E8=BD=BD=E5=88=B0=E5=
+=8E=9F=E5=9E=8B=E5=B1=9E=E6=80=A7=E3=80=81=E6=96=B9=E6=B3=95=EF=BC=8Ckey =
+=E5=B0=B1=E6=98=AF=E5=B1=9E=E6=80=A7=E5=90=8D=E7=A7=B0=EF=BC=8Cdecorator =
+=E5=B0=B1=E6=98=AF=E5=AF=B9=E5=B1=9E=E6=80=A7=E7=9A=84=E7=BA=A6=E6=9D=9F=EF=
+=BC=8C=E5=8F=AF=E4=BB=A5=E4=BF=AE=E6=94=B9=E7=BA=A6=E6=9D=9F</p>=20
+<blockquote>=20
+<p>=E8=A3=85=E9=A5=B0=E5=9C=A8=E7=B1=BB=E4=B8=8A-=E5=A2=9E=E5=8A=A0=E5=B1=
+=9E=E6=80=A7</p>=20
+</blockquote> <pre><code class=3D"language-ts">function Duser(target: any) =
+{
+  target.userName =3D 'hl'
+}
+
+@Duser
+class User {}
+console.log(User.userName)
+</code></pre>=20
+<blockquote>=20
+<p>=E8=A3=85=E9=A5=B0=E5=9C=A8=E7=B1=BB=E4=B8=8A-=E5=A2=9E=E5=8A=A0=E5=B1=
+=9E=E6=80=A7(=E4=BC=A0=E5=8F=82)</p>=20
+</blockquote> <pre><code class=3D"language-ts">function Duser(name: string)=
+ {
+  return function(target: any) {
+    target.userName =3D name
+  }
+}
+
+@Duser('hl')
+class User {}
+console.log(User.userName)
+</code></pre>=20
+<blockquote>=20
+<p>=E8=A3=85=E9=A5=B0=E5=9C=A8=E6=96=B9=E6=B3=95=E4=B8=8A-=E6=8B=A6=E6=88=
+=AA/=E6=97=A5=E5=BF=97=E4=B8=8A=E6=8A=A5</p>=20
+</blockquote> <pre><code class=3D"language-ts">function addLog(target, key,=
+ decorator) {
+  const oldFn =3D decorator.value
+  decorator.value =3D function() {
+    console.log('=E5=BC=80=E5=A7=8B')
+    oldFn.apply(target, arguments)
+    console.log('=E7=BB=93=E6=9D=9F')
+  }
+  return decorator
+}
+
+class Utils {
+  @addLog
+  static add(a, b) {
+    console.log(a + b)
+  }
+}
+
+Utils.add(10, 10)
+</code></pre> </li>=20
+</ul>=20
+<script>
+AJS.$('[data-macro-name=3D"markdown"] code').each(function(i, block) {
+    hljs.highlightBlock(block);
+  });
+</script>
+<style>
+.hljs {display: inline;}
+pre > code {display: block !important;}
+</style>
+<script> AJS.$('[data-macro-name=3D"markdown"] table thead th').each(functi=
+on(i, block) {
+    block.classList.add("confluenceTh");
+});
+
+AJS.$('[data-macro-name=3D"markdown"] table tbody tr td').each(function(i, =
+block) {
+    block.classList.add("confluenceTd");
+});</script>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_171_1753062025.1573026229755--

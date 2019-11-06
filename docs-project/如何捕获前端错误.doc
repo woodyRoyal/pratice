@@ -1,0 +1,590 @@
+Message-ID: <619293696.180.1573026290222.JavaMail.daemon@7ce466c20647>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_179_1414899843.1573026290222"
+
+------=_Part_179_1414899843.1573026290222
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=E5=A6=82=E4=BD=95=E6=8D=95=E8=8E=B7=E5=89=8D=E7=AB=AF=E9=94=99=
+=E8=AF=AF</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=E5=A6=82=E4=BD=95=E6=8D=95=E8=8E=B7=E5=89=8D=E7=AB=AF=E9=94=99=E8=
+=AF=AF</h1>
+    <div class=3D"Section1">
+        <h3 id=3D"id-=E5=A6=82=E4=BD=95=E6=8D=95=E8=8E=B7=E5=89=8D=E7=AB=AF=
+=E9=94=99=E8=AF=AF-=E4=B8=80=E3=80=81=E5=B8=B8=E8=A7=81=E9=94=99=E8=AF=AF=
+=E5=88=86=E7=B1=BB">=E4=B8=80=E3=80=81=E5=B8=B8=E8=A7=81=E9=94=99=E8=AF=AF=
+=E5=88=86=E7=B1=BB</h3>
+<h4 id=3D"id-=E5=A6=82=E4=BD=95=E6=8D=95=E8=8E=B7=E5=89=8D=E7=AB=AF=E9=94=
+=99=E8=AF=AF-1=E3=80=81js=E8=BF=90=E8=A1=8C=E6=97=B6=E9=94=99=E8=AF=AF">1=
+=E3=80=81js=E8=BF=90=E8=A1=8C=E6=97=B6=E9=94=99=E8=AF=AF</h4>
+<ul>
+<li style=3D"">JavaScript=E4=BB=A3=E7=A0=81=E5=9C=A8=E7=94=A8=E6=88=B7=E6=
+=B5=8F=E8=A7=88=E5=99=A8=E4=B8=AD=E6=89=A7=E8=A1=8C=E6=97=B6=EF=BC=8C=E7=94=
+=B1=E4=BA=8E=E4=B8=80=E4=BA=9B=E8=BE=B9=E7=95=8C=E6=83=85=E5=86=B5=E3=80=81=
+=E6=9C=AC=E5=9C=B0=E7=8E=AF=E5=A2=83=E7=9A=84=E4=B8=8D=E5=8F=AF=E6=8E=A7=E7=
+=AD=89=E5=9B=A0=E7=B4=A0=EF=BC=8C=E5=8F=AF=E8=83=BD=E4=BC=9A=E5=AD=98=E5=9C=
+=A8js=E8=BF=90=E8=A1=8C=E6=97=B6=E9=94=99=E8=AF=AF=E3=80=82</li>
+<li style=3D"">=E8=80=8C=E4=BE=9D=E8=B5=96=E5=AE=A2=E6=88=B7=E7=AB=AF=E7=9A=
+=84=E6=9F=90=E4=BA=9B=E6=96=B9=E6=B3=95=EF=BC=8C=E7=94=B1=E4=BA=8E=E5=85=BC=
+=E5=AE=B9=E6=80=A7=E6=88=96=E8=80=85=E7=BD=91=E7=BB=9C=E7=AD=89=E9=97=AE=E9=
+=A2=98=EF=BC=8C=E4=B9=9F=E6=9C=89=E6=A6=82=E7=8E=87=E4=BC=9A=E5=87=BA=E7=8E=
+=B0=E8=BF=90=E8=A1=8C=E6=97=B6=E9=94=99=E8=AF=AF=E3=80=82</li>
+</ul>
+<h4 id=3D"id-=E5=A6=82=E4=BD=95=E6=8D=95=E8=8E=B7=E5=89=8D=E7=AB=AF=E9=94=
+=99=E8=AF=AF-2=E3=80=81=E8=B5=84=E6=BA=90=E5=8A=A0=E8=BD=BD=E9=94=99=E8=AF=
+=AF">2=E3=80=81=E8=B5=84=E6=BA=90=E5=8A=A0=E8=BD=BD=E9=94=99=E8=AF=AF</h4>
+<ul>
+<li><span style=3D"color: rgb(51,51,51);">=E9=9D=99=E6=80=81=E8=B5=84=E6=BA=
+=90=E5=8C=85=E6=8B=ACjs=E3=80=81css=E4=BB=A5=E5=8F=8Aimage=E7=AD=89=E3=80=
+=82=E7=8E=B0=E5=9C=A8=E7=9A=84web=E9=A1=B9=E7=9B=AE=EF=BC=8C=E5=BE=80=E5=BE=
+=80=E4=BE=9D=E8=B5=96=E4=BA=86=E5=A4=A7=E9=87=8F=E7=9A=84=E9=9D=99=E6=80=81=
+=E8=B5=84=E6=BA=90=E3=80=82</span></li>
+<li><span style=3D"color: rgb(51,51,51);">=E5=A6=82=E6=9E=9C=E6=9F=90=E4=B8=
+=AA=E8=8A=82=E7=82=B9=E5=87=BA=E7=8E=B0=E9=97=AE=E9=A2=98=E5=AF=BC=E8=87=B4=
+=E6=9F=90=E4=B8=AA=E9=9D=99=E6=80=81=E8=B5=84=E6=BA=90=E6=97=A0=E6=B3=95=E8=
+=AE=BF=E9=97=AE=EF=BC=8C=E5=B0=B1=E9=9C=80=E8=A6=81=E8=83=BD=E5=A4=9F=E6=8D=
+=95=E8=8E=B7=E8=BF=99=E7=A7=8D=E5=BC=82=E5=B8=B8=E5=B9=B6=E8=BF=9B=E8=A1=8C=
+=E4=B8=8A=E6=8A=A5=EF=BC=8C=E6=96=B9=E4=BE=BF=E7=AC=AC=E4=B8=80=E6=97=B6=E9=
+=97=B4=E8=A7=A3=E5=86=B3=E9=97=AE=E9=A2=98=E3=80=82</span></li>
+</ul>
+<h4 id=3D"id-=E5=A6=82=E4=BD=95=E6=8D=95=E8=8E=B7=E5=89=8D=E7=AB=AF=E9=94=
+=99=E8=AF=AF-3=E3=80=81=E6=9C=AA=E5=A4=84=E7=90=86promise=E9=94=99=E8=AF=AF=
+"><span style=3D"letter-spacing: 0.0px;">3=E3=80=81=E6=9C=AA=E5=A4=84=E7=90=
+=86promise=E9=94=99=E8=AF=AF</span></h4>
+<ul>
+<li><span style=3D"letter-spacing: 0.0px;"><span style=3D"color: rgb(51,51,=
+51);">=E6=9C=AA=E4=BD=BF=E7=94=A8catch=E6=8D=95=E8=8E=B7=E7=9A=84promise=E9=
+=94=99=E8=AF=AF=EF=BC=8C=E5=BE=80=E5=BE=80=E9=83=BD=E4=BC=9A=E5=AD=98=E5=9C=
+=A8=E6=AF=94=E8=BE=83=E5=A4=A7=E7=9A=84=E9=A3=8E=E9=99=A9=E3=80=82=E8=80=8C=
+=E7=BC=96=E7=A0=81=E6=97=B6=E6=9C=89=E5=8F=AF=E8=83=BD=E8=A6=86=E7=9B=96=E7=
+=9A=84=E4=B8=8D=E5=A4=9F=E5=85=A8=E9=9D=A2=EF=BC=8C=E5=9B=A0=E6=AD=A4=E6=9C=
+=89=E5=BF=85=E8=A6=81=E7=9B=91=E6=8E=A7=E6=9C=AA=E5=A4=84=E7=90=86=E7=9A=84=
+promise=E9=94=99=E8=AF=AF=E5=B9=B6=E8=BF=9B=E8=A1=8C=E4=B8=8A=E6=8A=A5=E3=
+=80=82</span></span></li>
+</ul>
+<h4 id=3D"id-=E5=A6=82=E4=BD=95=E6=8D=95=E8=8E=B7=E5=89=8D=E7=AB=AF=E9=94=
+=99=E8=AF=AF-4=E3=80=81=E5=BC=82=E6=AD=A5=E8=AF=B7=E6=B1=82=E9=94=99=E8=AF=
+=AF">4=E3=80=81=E5=BC=82=E6=AD=A5=E8=AF=B7=E6=B1=82=E9=94=99=E8=AF=AF</h4>
+<ul>
+<li><span style=3D"color: rgb(51,51,51);">=E5=BC=82=E6=AD=A5=E9=94=99=E8=AF=
+=AF=E7=9A=84=E6=8D=95=E8=8E=B7=E5=88=86=E4=B8=BA=E4=B8=A4=E4=B8=AA=E9=83=A8=
+=E5=88=86=EF=BC=9A=E4=B8=80=E4=B8=AA=E6=98=AF=E4=BC=A0=E7=BB=9F=E7=9A=84XML=
+HttpRequest=EF=BC=8C=E5=8F=A6=E4=B8=80=E4=B8=AA=E6=98=AF=E4=BD=BF=E7=94=A8f=
+etch api=E3=80=82</span></li>
+<li><span style=3D"color: rgb(51,51,51);">=E5=83=8Faxios=E5=92=8CjQuery=E7=
+=AD=89=E5=BA=93=E5=B0=B1=E6=98=AF=E5=9C=A8xhr=E4=B8=8A=E7=9A=84=E5=B0=81=E8=
+=A3=85=EF=BC=8C=E8=80=8C=E6=9C=89=E4=BA=9B=E6=83=85=E5=86=B5=E4=B9=9F=E5=8F=
+=AF=E8=83=BD=E4=BC=9A=E4=BD=BF=E7=94=A8=E5=8E=9F=E7=94=9F=E7=9A=84fetch=EF=
+=BC=8C=E5=9B=A0=E6=AD=A4=E5=AF=B9=E8=BF=99=E4=B8=A4=E7=A7=8D=E6=83=85=E5=86=
+=B5=E9=83=BD=E8=A6=81=E8=BF=9B=E8=A1=8C=E6=8D=95=E8=8E=B7=E3=80=82</span></=
+li>
+</ul>
+<h3 id=3D"id-=E5=A6=82=E4=BD=95=E6=8D=95=E8=8E=B7=E5=89=8D=E7=AB=AF=E9=94=
+=99=E8=AF=AF-=E4=BA=8C=E3=80=81=E5=90=84=E4=B8=AA=E7=B1=BB=E5=9E=8B=E6=8D=
+=95=E8=8E=B7=E6=96=B9=E5=BC=8F"><span style=3D"color: rgb(51,51,51);">=E4=
+=BA=8C=E3=80=81=E5=90=84=E4=B8=AA=E7=B1=BB=E5=9E=8B=E6=8D=95=E8=8E=B7=E6=96=
+=B9=E5=BC=8F</span></h3>
+<h3 id=3D"id-=E5=A6=82=E4=BD=95=E6=8D=95=E8=8E=B7=E5=89=8D=E7=AB=AF=E9=94=
+=99=E8=AF=AF-1=E3=80=81window.on=E4=B8=8Ewindow.addEventListener('error')=
+=E6=8D=95=E8=8E=B7js=E8=BF=90=E8=A1=8C=E6=97=B6=E9=94=99=E8=AF=AF=E3=80=82"=
+><span style=3D"color: rgb(51,51,51);">1=E3=80=81window.on=E4=B8=8Ewindow.a=
+ddEventListener('error')=E6=8D=95=E8=8E=B7js=E8=BF=90=E8=A1=8C=E6=97=B6=E9=
+=94=99=E8=AF=AF=E3=80=82</span></h3>
+<ul>
+<li><p style=3D"">=E4=BD=BF=E7=94=A8window.onerror=E5=92=8Cwindow.addEventL=
+istener('error')=E9=83=BD=E8=83=BD=E6=8D=95=E8=8E=B7=EF=BC=8C=E4=BD=86=E6=
+=98=AFwindow.onerror=E5=90=AB=E6=9C=89=E8=AF=A6=E7=BB=86=E7=9A=84error=E5=
+=A0=86=E6=A0=88=E4=BF=A1=E6=81=AF=EF=BC=8C=E5=AD=98=E5=9C=A8error.stack=E4=
+=B8=AD=EF=BC=8C=E6=89=80=E4=BB=A5=E6=88=91=E4=BB=AC=E9=80=89=E6=8B=A9=E4=BD=
+=BF=E7=94=A8onerror=E7=9A=84=E6=96=B9=E5=BC=8F=E5=AF=B9js=E8=BF=90=E8=A1=8C=
+=E6=97=B6=E9=94=99=E8=AF=AF=E8=BF=9B=E8=A1=8C=E6=8D=95=E8=8E=B7</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">window.on=
+error =3D function (msg, url, lineNo, columnNo, error) {
+    // =E5=A4=84=E7=90=86=E9=94=99=E8=AF=AF=E4=BF=A1=E6=81=AF
+}
+// demo
+msg: Uncaught TypeError: Uncaught ReferenceError: a is not defined
+error.statck: TypeError: ReferenceError: a is not defined at http://xxxx.js=
+:1:13
+window.addEventListener('error', event =3D&gt; (){=20
+  // =E5=A4=84=E7=90=86=E9=94=99=E8=AF=AF=E4=BF=A1=E6=81=AF
+}, false);
+// true=E4=BB=A3=E8=A1=A8=E5=9C=A8=E6=8D=95=E8=8E=B7=E9=98=B6=E6=AE=B5=E8=
+=B0=83=E7=94=A8=EF=BC=8Cfalse=E4=BB=A3=E8=A1=A8=E5=9C=A8=E5=86=92=E6=B3=A1=
+=E9=98=B6=E6=AE=B5=E6=8D=95=E8=8E=B7=E3=80=82=E4=BD=BF=E7=94=A8true=E6=88=
+=96false=E9=83=BD=E5=8F=AF=E4=BB=A5=EF=BC=8C=E9=BB=98=E8=AE=A4=E4=B8=BAfals=
+e</pre>=20
+</div>
+</div></li>
+</ul>
+<h3 id=3D"id-=E5=A6=82=E4=BD=95=E6=8D=95=E8=8E=B7=E5=89=8D=E7=AB=AF=E9=94=
+=99=E8=AF=AF-2=E3=80=81=E8=B5=84=E6=BA=90=E5=8A=A0=E8=BD=BD=E9=94=99=E8=AF=
+=AF=E4=BD=BF=E7=94=A8addEventListener=E5=8E=BB=E7=9B=91=E5=90=ACerror=E4=BA=
+=8B=E4=BB=B6=E6=8D=95=E8=8E=B7"><span style=3D"color: rgb(51,51,51);">2=E3=
+=80=81<strong style=3D"">=E8=B5=84=E6=BA=90=E5=8A=A0=E8=BD=BD=E9=94=99=E8=
+=AF=AF=E4=BD=BF=E7=94=A8addEventListener=E5=8E=BB=E7=9B=91=E5=90=ACerror=E4=
+=BA=8B=E4=BB=B6=E6=8D=95=E8=8E=B7</strong></span></h3>
+<ul>
+<li><span style=3D"color: rgb(51,51,51);">=E5=BD=93=E4=B8=80=E9=A1=B9=E8=B5=
+=84=E6=BA=90=EF=BC=88=E5=A6=82&lt;img&gt;=E6=88=96&lt;script&gt;=EF=BC=89=
+=E5=8A=A0=E8=BD=BD=E5=A4=B1=E8=B4=A5=EF=BC=8C=E5=8A=A0=E8=BD=BD=E8=B5=84=E6=
+=BA=90=E7=9A=84=E5=85=83=E7=B4=A0=E4=BC=9A=E8=A7=A6=E5=8F=91=E4=B8=80=E4=B8=
+=AAEvent=E6=8E=A5=E5=8F=A3=E7=9A=84error=E4=BA=8B=E4=BB=B6=EF=BC=8C=E5=B9=
+=B6=E6=89=A7=E8=A1=8C=E8=AF=A5=E5=85=83=E7=B4=A0=E4=B8=8A=E7=9A=84onerror()=
+=E5=A4=84=E7=90=86=E5=87=BD=E6=95=B0=E3=80=82</span></li>
+<li><span style=3D"color: rgb(51,51,51);">=E8=BF=99=E4=BA=9Berror=E4=BA=8B=
+=E4=BB=B6=E4=B8=8D=E4=BC=9A=E5=90=91=E4=B8=8A=E5=86=92=E6=B3=A1=E5=88=B0win=
+dow=EF=BC=8C=E4=B8=8D=E8=BF=87=E8=83=BD=E8=A2=ABwindow.addEventListener=E5=
+=9C=A8=E6=8D=95=E8=8E=B7=E9=98=B6=E6=AE=B5=E6=8D=95=E8=8E=B7=E3=80=82</span=
+></li>
+<li><p class=3D"auto-cursor-target"><span style=3D"color: rgb(51,51,51);">=
+=E7=94=B1=E4=BA=8E=E4=B8=8A=E9=9D=A2=E6=8F=90=E5=88=B0=E4=BA=86addEventList=
+ener=E4=B9=9F=E8=83=BD=E5=A4=9F=E6=8D=95=E8=8E=B7js=E9=94=99=E8=AF=AF=EF=BC=
+=8C=E5=9B=A0=E6=AD=A4=E9=9C=80=E8=A6=81=E8=BF=87=E6=BB=A4=E9=81=BF=E5=85=8D=
+=E9=87=8D=E5=A4=8D=E4=B8=8A=E6=8A=A5=EF=BC=8C=E5=88=A4=E6=96=AD=E4=B8=BA=E8=
+=B5=84=E6=BA=90=E9=94=99=E8=AF=AF=E7=9A=84=E6=97=B6=E5=80=99=E6=89=8D=E8=BF=
+=9B=E8=A1=8C=E4=B8=8A=E6=8A=A5=E3=80=82</span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">window.ad=
+dEventListener('error', event =3D&gt; (){=20
+  // =E8=BF=87=E6=BB=A4js error
+  let target =3D event.target || event.srcElement;
+  let isElementTarget =3D target instanceof HTMLScriptElement || target ins=
+tanceof HTMLLinkElement || target instanceof HTMLImageElement;
+  if (!isElementTarget) return false;
+  // =E4=B8=8A=E6=8A=A5=E8=B5=84=E6=BA=90=E5=9C=B0=E5=9D=80
+  let url =3D target.src || target.href;
+  console.log(url);
+}, true);</pre>=20
+</div>
+</div></li>
+</ul>
+<p><span style=3D"color: rgb(51,51,51);"><strong style=3D"">3=E3=80=81=E6=
+=9C=AA=E5=A4=84=E7=90=86=E7=9A=84promise=E9=94=99=E8=AF=AF=E5=A4=84=E7=90=
+=86=E6=96=B9=E5=BC=8F</strong></span></p>
+<ul>
+<li><span style=3D"color: rgb(51,51,51);">=E5=BD=93promise=E8=A2=ABreject=
+=E5=B9=B6=E4=B8=94=E9=94=99=E8=AF=AF=E4=BF=A1=E6=81=AF=E6=B2=A1=E6=9C=89=E8=
+=A2=AB=E5=A4=84=E7=90=86=E7=9A=84=E6=97=B6=E5=80=99=EF=BC=8C=E4=BC=9A=E6=8A=
+=9B=E5=87=BA=E4=B8=80=E4=B8=AAunhandledrejection=E3=80=82</span></li>
+<li><p style=3D"">=E8=BF=99=E4=B8=AA=E9=94=99=E8=AF=AF=E4=B8=8D=E4=BC=9A=E8=
+=A2=ABwindow.onerror=E4=BB=A5=E5=8F=8Awindow.addEventListener('error')=E6=
+=8D=95=E8=8E=B7=EF=BC=8C=E4=BD=86=E6=98=AF=E6=9C=89=E4=B8=93=E9=97=A8=E7=9A=
+=84window.addEventListener('unhandledrejection')=E6=96=B9=E6=B3=95=E8=BF=9B=
+=E8=A1=8C=E6=8D=95=E8=8E=B7=E5=A4=84=E7=90=86=E3=80=82</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">window.ad=
+dEventListener('rejectionhandled', event =3D&gt; {
+  // =E9=94=99=E8=AF=AF=E7=9A=84=E8=AF=A6=E7=BB=86=E4=BF=A1=E6=81=AF=E5=9C=
+=A8reason=E5=AD=97=E6=AE=B5
+  // demo:settimeout error
+  console.log(event.reason);
+});</pre>=20
+</div>
+</div></li>
+</ul>
+<p><span style=3D"color: rgb(51,51,51);"><strong style=3D"">4=E3=80=81fetch=
+=E4=B8=8Exhr=E9=94=99=E8=AF=AF=E7=9A=84=E6=8D=95=E8=8E=B7</strong></span></=
+p>
+<ul>
+<li><p class=3D"auto-cursor-target"><span style=3D"color: rgb(51,51,51);">=
+=E5=AF=B9=E4=BA=8Efetch=E5=92=8Cxhr=EF=BC=8C=E6=88=91=E4=BB=AC=E9=9C=80=E8=
+=A6=81=E9=80=9A=E8=BF=87=E6=94=B9=E5=86=99=E5=AE=83=E4=BB=AC=E7=9A=84=E5=8E=
+=9F=E7=94=9F=E6=96=B9=E6=B3=95=EF=BC=8C=E5=9C=A8=E8=A7=A6=E5=8F=91=E9=94=99=
+=E8=AF=AF=E6=97=B6=E8=BF=9B=E8=A1=8C=E8=87=AA=E5=8A=A8=E5=8C=96=E7=9A=84=E6=
+=8D=95=E8=8E=B7=E5=92=8C=E4=B8=8A=E6=8A=A5=E3=80=82</span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">// xhr=E7=
+=9A=84=E5=A4=84=E7=90=86
+function _errorAjaxInit () {
+    let protocol =3D window.location.protocol;
+    if (protocol =3D=3D=3D 'file:') return;
+    // =E5=A4=84=E7=90=86XMLHttpRequest
+    if (!window.XMLHttpRequest) {
+        return; =20
+    }
+    let xmlhttp =3D window.XMLHttpRequest;   =20
+    // =E4=BF=9D=E5=AD=98=E5=8E=9F=E7=94=9Fsend=E6=96=B9=E6=B3=95
+    let _oldSend =3D xmlhttp.prototype.send;
+    let _handleEvent =3D function (event) {
+        try {
+            if (event &amp;&amp; event.currentTarget &amp;&amp; event.curre=
+ntTarget.status !=3D=3D 200) {
+                    // event.currentTarget =E5=8D=B3=E4=B8=BA=E6=9E=84=E5=
+=BB=BA=E7=9A=84xhr=E5=AE=9E=E4=BE=8B
+                    // event.currentTarget.response
+                    // event.currentTarget.responseURL || event.currentTarg=
+et.ajaxUrl
+                    // event.currentTarget.status
+                    // event.currentTarget.statusText
+                });
+            }
+        } catch (e) {va
+            console.log('Tool\'s error: ' + e);
+        }
+    }
+    xmlhttp.prototype.send =3D function () {
+        this.addEventListener('error', _handleEvent); // =E5=A4=B1=E8=B4=A5
+        this.addEventListener('load', _handleEvent);  // =E5=AE=8C=E6=88=90
+        this.addEventListener('abort', _handleEvent); // =E5=8F=96=E6=B6=88
+        return _oldSend.apply(this, arguments);
+    }
+}
+
+// fetch=E7=9A=84=E5=A4=84=E7=90=86
+function _errorFetchInit () {
+    if(!window.fetch) return;
+    let _oldFetch =3D window.fetch;
+    window.fetch =3D function () {
+        return _oldFetch.apply(this, arguments)
+        .then(res =3D&gt; {
+            if (!res.ok) { // =E5=BD=93status=E4=B8=8D=E4=B8=BA2XX=E7=9A=84=
+=E6=97=B6=E5=80=99=EF=BC=8C=E4=B8=8A=E6=8A=A5=E9=94=99=E8=AF=AF
+            }
+            return res;
+        })
+        // =E5=BD=93fetch=E6=96=B9=E6=B3=95=E9=94=99=E8=AF=AF=E6=97=B6=E4=
+=B8=8A=E6=8A=A5
+        .catch(error =3D&gt; {
+            // error.message,
+            // error.stack
+            // =E6=8A=9B=E5=87=BA=E9=94=99=E8=AF=AF=E5=B9=B6=E4=B8=94=E4=B8=
+=8A=E6=8A=A5
+            throw error;=20
+        })
+    }
+}</pre>=20
+</div>
+</div><p style=3D"">=E5=85=B3=E4=BA=8EresponseURL =E7=9A=84=E8=AF=B4=E6=98=
+=8E</p><p style=3D"">=E9=9C=80=E8=A6=81=E7=89=B9=E5=88=AB=E6=B3=A8=E6=84=8F=
+=E7=9A=84=E6=98=AF=EF=BC=8C=E5=BD=93=E8=AF=B7=E6=B1=82=E5=AE=8C=E5=85=A8=E6=
+=97=A0=E6=B3=95=E6=89=A7=E8=A1=8C=E7=9A=84=E6=97=B6=E5=80=99=EF=BC=8CXMLHtt=
+pRequest=E4=BC=9A=E6=94=B6=E5=88=B0status=3D0 =E5=92=8C statusText=3Dnull=
+=E7=9A=84=E8=BF=94=E5=9B=9E=EF=BC=8C=E6=AD=A4=E6=97=B6responseURL=E4=B9=9F=
+=E4=B8=BA=E7=A9=BAstring=E3=80=82</p><p style=3D"">=E5=8F=A6=E5=A4=96=E5=9C=
+=A8=E5=AE=89=E5=8D=934.4=E5=8F=8A=E4=BB=A5=E4=B8=8B=E7=89=88=E6=9C=AC=E7=9A=
+=84webview=E4=B8=AD=EF=BC=8Cxhr=E5=AF=B9=E8=B1=A1=E4=B9=9F=E4=B8=8D=E5=AD=
+=98=E5=9C=A8responseURL=E5=B1=9E=E6=80=A7=E3=80=82</p><p style=3D"">=E5=9B=
+=A0=E6=AD=A4=E6=88=91=E4=BB=AC=E9=9C=80=E8=A6=81=E9=A2=9D=E5=A4=96=E7=9A=84=
+=E6=94=B9=E5=86=99xhr=E7=9A=84open=E6=96=B9=E6=B3=95=EF=BC=8C=E5=B0=86=E4=
+=BC=A0=E5=85=A5=E7=9A=84url=E8=AE=B0=E5=BD=95=E4=B8=8B=E6=9D=A5=EF=BC=8C=E6=
+=96=B9=E4=BE=BF=E4=B8=8A=E6=8A=A5=E6=97=B6=E5=B8=A6=E4=B8=8A=E3=80=82</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">var _oldO=
+pen =3D xmlhttp.prototype.open;
+// =E9=87=8D=E5=86=99open=E6=96=B9=E6=B3=95,=E8=AE=B0=E5=BD=95=E8=AF=B7=E6=
+=B1=82=E7=9A=84url
+xmlhttp.prototype.open =3D function (method, url) {
+    _oldOpen.apply(this, arguments);
+    this.ajaxUrl =3D url;
+};</pre>=20
+</div>
+</div></li>
+</ul>
+<h3 id=3D"id-=E5=A6=82=E4=BD=95=E6=8D=95=E8=8E=B7=E5=89=8D=E7=AB=AF=E9=94=
+=99=E8=AF=AF-=E4=B8=89=E3=80=81=E5=85=B6=E5=AE=83=E9=97=AE=E9=A2=98"><span =
+style=3D"color: rgb(51,51,51);"><strong style=3D"">=E4=B8=89=E3=80=81=E5=85=
+=B6=E5=AE=83=E9=97=AE=E9=A2=98</strong></span></h3>
+<h4 id=3D"id-=E5=A6=82=E4=BD=95=E6=8D=95=E8=8E=B7=E5=89=8D=E7=AB=AF=E9=94=
+=99=E8=AF=AF-1=E3=80=81vue=E9=A1=B9=E7=9B=AE=E7=9A=84=E9=94=99=E8=AF=AF=E6=
+=8D=95=E8=8E=B7"><span style=3D"color: rgb(51,51,51);">1=E3=80=81<strong st=
+yle=3D"">vue=E9=A1=B9=E7=9B=AE=E7=9A=84=E9=94=99=E8=AF=AF=E6=8D=95=E8=8E=B7=
+</strong></span></h4>
+<ul>
+<li><span style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,5=
+1);">vue=E5=86=85=E9=83=A8=E5=8F=91=E7=94=9F=E7=9A=84=E9=94=99=E8=AF=AF=E4=
+=BC=9A=E8=A2=ABVue=E6=8B=A6=E6=88=AA=EF=BC=8C=E5=9B=A0=E6=AD=A4vue=E6=8F=90=
+=E4=BE=9B=E6=96=B9=E6=B3=95=E7=BB=99=E6=88=91=E4=BB=AC=E5=A4=84=E7=90=86vue=
+=E7=BB=84=E4=BB=B6=E5=86=85=E9=83=A8=E5=8F=91=E7=94=9F=E7=9A=84=E9=94=99=E8=
+=AF=AF=E3=80=82</span></span>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">Vue.confi=
+g.errorHandler =3D function (err, vm, info) {
+  // handle error
+  // `info` =E6=98=AF Vue =E7=89=B9=E5=AE=9A=E7=9A=84=E9=94=99=E8=AF=AF=E4=
+=BF=A1=E6=81=AF=EF=BC=8C=E6=AF=94=E5=A6=82=E9=94=99=E8=AF=AF=E6=89=80=E5=9C=
+=A8=E7=9A=84=E7=94=9F=E5=91=BD=E5=91=A8=E6=9C=9F=E9=92=A9=E5=AD=90
+  // =E5=8F=AA=E5=9C=A8 2.2.0+ =E5=8F=AF=E7=94=A8
+}</pre>=20
+</div>
+</div></li>
+</ul>
+<p><span style=3D"color: rgb(51,51,51);"><strong style=3D"">2=E3=80=81scrip=
+t error=E7=9A=84=E8=A7=A3=E5=86=B3=E6=96=B9=E5=BC=8F</strong></span></p>
+<ul>
+<li><span style=3D"color: rgb(51,51,51);">"script error.=E2=80=9D=E6=9C=89=
+=E6=97=B6=E4=B9=9F=E8=A2=AB=E7=A7=B0=E4=B8=BA=E8=B7=A8=E5=9F=9F=E9=94=99=E8=
+=AF=AF=E3=80=82=E5=BD=93=E7=BD=91=E7=AB=99=E8=AF=B7=E6=B1=82=E5=B9=B6=E6=89=
+=A7=E8=A1=8C=E4=B8=80=E4=B8=AA=E6=89=98=E7=AE=A1=E5=9C=A8=E7=AC=AC=E4=B8=89=
+=E6=96=B9=E5=9F=9F=E5=90=8D=E4=B8=8B=E7=9A=84=E8=84=9A=E6=9C=AC=E6=97=B6=EF=
+=BC=8C=E5=B0=B1=E5=8F=AF=E8=83=BD=E9=81=87=E5=88=B0=E8=AF=A5=E9=94=99=E8=AF=
+=AF=E3=80=82=E6=9C=80=E5=B8=B8=E8=A7=81=E7=9A=84=E6=83=85=E5=BD=A2=E6=98=AF=
+=E4=BD=BF=E7=94=A8 CDN =E6=89=98=E7=AE=A1 JS =E8=B5=84=E6=BA=90=E3=80=82</s=
+pan></li>
+<li><span style=3D"color: rgb(51,51,51);">=E5=85=B6=E5=AE=9E=E8=BF=99=E5=B9=
+=B6=E4=B8=8D=E6=98=AF=E4=B8=80=E4=B8=AA JavaScript Bug=E3=80=82=E5=87=BA=E4=
+=BA=8E=E5=AE=89=E5=85=A8=E8=80=83=E8=99=91=EF=BC=8C=E6=B5=8F=E8=A7=88=E5=99=
+=A8=E4=BC=9A=E5=88=BB=E6=84=8F=E9=9A=90=E8=97=8F=E5=85=B6=E4=BB=96=E5=9F=9F=
+=E7=9A=84 JS =E6=96=87=E4=BB=B6=E6=8A=9B=E5=87=BA=E7=9A=84=E5=85=B7=E4=BD=
+=93=E9=94=99=E8=AF=AF=E4=BF=A1=E6=81=AF=EF=BC=8C=E8=BF=99=E6=A0=B7=E5=81=9A=
+=E5=8F=AF=E4=BB=A5=E6=9C=89=E6=95=88=E9=81=BF=E5=85=8D=E6=95=8F=E6=84=9F=E4=
+=BF=A1=E6=81=AF=E6=97=A0=E6=84=8F=E4=B8=AD=E8=A2=AB=E4=B8=8D=E5=8F=97=E6=8E=
+=A7=E5=88=B6=E7=9A=84=E7=AC=AC=E4=B8=89=E6=96=B9=E8=84=9A=E6=9C=AC=E6=8D=95=
+=E8=8E=B7=E3=80=82</span></li>
+<li><p class=3D"auto-cursor-target"><span style=3D"color: rgb(51,51,51);">=
+=E5=9B=A0=E6=AD=A4=EF=BC=8C=E6=B5=8F=E8=A7=88=E5=99=A8=E5=8F=AA=E5=85=81=E8=
+=AE=B8=E5=90=8C=E5=9F=9F=E4=B8=8B=E7=9A=84=E8=84=9A=E6=9C=AC=E6=8D=95=E8=8E=
+=B7=E5=85=B7=E4=BD=93=E9=94=99=E8=AF=AF=E4=BF=A1=E6=81=AF=EF=BC=8C=E8=80=8C=
+=E5=85=B6=E4=BB=96=E8=84=9A=E6=9C=AC=E5=8F=AA=E7=9F=A5=E9=81=93=E5=8F=91=E7=
+=94=9F=E4=BA=86=E4=B8=80=E4=B8=AA=E9=94=99=E8=AF=AF=EF=BC=8C=E4=BD=86=E6=97=
+=A0=E6=B3=95=E8=8E=B7=E7=9F=A5=E9=94=99=E8=AF=AF=E7=9A=84=E5=85=B7=E4=BD=93=
+=E5=86=85=E5=AE=B9=E3=80=82</span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;scrip=
+t src=3D"http://another-domain.com/app.js" crossorigin=3D"anonymous"&gt;&lt=
+;/script&gt;</pre>=20
+</div>
+</div></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_179_1414899843.1573026290222--
