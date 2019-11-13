@@ -1,0 +1,254 @@
+{
+	"variables": [],
+	"info": {
+		"name": "AdminDemo",
+		"_postman_id": "703ff09a-559e-bc40-e3f0-2e913fe0f6ac",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "利用Public文件夹特性",
+			"request": {
+				"url": "http://localhost:8088/mockApi/user.json",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic eWFuZ21pbmc6WW1AOTkwOTAy",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"phone\": \"xiaomi\"\n}"
+				},
+				"description": "mock测试"
+			},
+			"response": []
+		},
+		{
+			"name": "这是一个不存在的接口",
+			"request": {
+				"url": "http://localhost:8088/mock/api/phoneDetail",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic eWFuZ21pbmc6WW1AOTkwOTAy",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"phone\": \"apple\"\n}"
+				},
+				"description": "mock测试复杂接口"
+			},
+			"response": []
+		},
+		{
+			"name": "查询CPU核心数",
+			"request": {
+				"url": "http://localhost:8088/mock/api/cpu",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "查询三星品牌信息",
+			"request": {
+				"url": {
+					"raw": "http://172.17.20.160:8088/mock/api/brand?brand=sunsang",
+					"protocol": "http",
+					"host": [
+						"172",
+						"17",
+						"20",
+						"160"
+					],
+					"port": "8088",
+					"path": [
+						"mock",
+						"api",
+						"brand"
+					],
+					"query": [
+						{
+							"key": "brand",
+							"value": "sunsang",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "hghbbjhb11111",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"brand\": \"xiaomi\"\n}"
+				},
+				"description": "查询三星品牌信息"
+			},
+			"response": []
+		},
+		{
+			"name": "查询苹果品牌信息",
+			"request": {
+				"url": {
+					"raw": "http://172.17.20.160:8088/mock/api/brand?brand=apple",
+					"protocol": "http",
+					"host": [
+						"172",
+						"17",
+						"20",
+						"160"
+					],
+					"port": "8088",
+					"path": [
+						"mock",
+						"api",
+						"brand"
+					],
+					"query": [
+						{
+							"key": "brand",
+							"value": "apple",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "hghbbjhb11111",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"brand\": \"xiaomi\"\n}"
+				},
+				"description": "查询苹果品牌信息"
+			},
+			"response": []
+		},
+		{
+			"name": "查询小米品牌信息",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8088/mock/api/brand?brand=xiaomi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"mock",
+						"api",
+						"brand"
+					],
+					"query": [
+						{
+							"key": "brand",
+							"value": "xiaomi",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "hghbbjhb11111",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"brand\": \"xiaomi\"\n}"
+				},
+				"description": "查询小米品牌信息"
+			},
+			"response": []
+		},
+		{
+			"name": "POST查询手机信息",
+			"request": {
+				"url": "http://localhost:8088/mock/api/phone",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic eWFuZ21pbmc6WW1AOTkwOTAy",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"phone\": \"apple\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET查询手机信息",
+			"request": {
+				"url": "http://localhost:8088/mock/api/phone",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic eWFuZ21pbmc6WW1AOTkwOTAy",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"phone\": \"apple\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
